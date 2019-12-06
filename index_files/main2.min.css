@@ -1,0 +1,168 @@
+.feature-highlight-content__desktop {
+  background-image: url(/intl/ru_ALL/gmail/about/bettercompose.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .feature-highlight-content__desktop {
+    background-image: url(/intl/ru_ALL/gmail/about/bettercompose_2x.jpg)
+  }
+}
+
+.hero_home__image {
+  background-image: url(/intl/ru_ALL/gmail/about/home-hero_2x.jpg)
+}
+
+.hero_for-work__image {
+  background-image: url(/intl/ru_ALL/gmail/about/for-work-hero_2x.jpg)
+}
+
+@media only screen and (max-width: 777px) {
+  .hero_home__image {
+    background-image: url(/intl/ru_ALL/gmail/about/hero-mobile.jpg)
+  }
+}
+
+@media only screen and (max-width: 777px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 777px) and (min-resolution: 2dppx) {
+  .hero_home__image {
+    background-image: url(/intl/ru_ALL/gmail/about/hero-mobile_2x.jpg)
+  }
+}
+
+.inbox-action__image {
+  background-image: url(/intl/ru_ALL/gmail/about/action-4_2x.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .inbox-action__image {
+    background-image: url(/intl/ru_ALL/gmail/about/action-4_2x.png)
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .inbox-action__image {
+    background-image: url(/intl/ru_ALL/gmail/about/take-action-mobile_2x.jpg)
+  }
+}
+
+.themes-for-gmail .theme1 {
+  background-image: url(/intl/ru_ALL/gmail/about/themes1.jpg)
+}
+
+.themes-for-gmail .theme2 {
+  background-image: url(/intl/ru_ALL/gmail/about/themes2.jpg)
+}
+
+.themes-for-gmail .theme3 {
+  background-image: url(/intl/ru_ALL/gmail/about/themes3.jpg)
+}
+
+.themes-for-gmail .theme4 {
+  background-image: url(/intl/ru_ALL/gmail/about/themes4.jpg)
+}
+
+@media (max-width: 777px) {
+  .attachments-for-gmail__screen-feature-attachments {
+    background-image: url(/intl/ru_ALL/gmail/about/attachments-tablet.png)
+  }
+}
+
+.attachments-for-gmail__screen-feature-attachments {
+  background-image: url(/intl/ru_ALL/gmail/about/attachments-tablet_2x.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .attachments-for-gmail__screen-feature-attachments {
+    background-image: url(/intl/ru_ALL/gmail/about/attachments-tablet_2x.png)
+  }
+}
+
+.inbox-tabs-for-gmail__image {
+  background-image: url(/intl/ru_ALL/gmail/about/inboxtabs.gif)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .inbox-tabs-for-gmail__image {
+    background-image: url(/intl/ru_ALL/gmail/about/inboxtabs_2x.jpg)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(1) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/branded.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(1) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/branded_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(2) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/workfromnewhere.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(2) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/workfromnewhere_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(3) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/techsupport.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(3) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/techsupport_2x.png)
+  }
+}
+
+.for-work-feature-highlights__block__card:nth-of-type(4) .for-work-feature-highlights__block__card-tinyhero {
+  background-image: url(/gmail/about/images/hangout.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .for-work-feature-highlights__block__card:nth-of-type(4) .for-work-feature-highlights__block__card-tinyhero {
+    background-image: url(/gmail/about/images/hangout_2x.png)
+  }
+}
+
+.hero_for-work__image {
+  background-image: url(/intl/ru_ALL/gmail/about/for-work-hero.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .hero_for-work__image {
+    background-image: url(/intl/ru_ALL/gmail/about/for-work-hero_2x.jpg)
+  }
+}
+
+.gmail-devices__images-desktop {
+  background-image: url(/intl/ru_ALL/gmail/about/any-device.jpg)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .gmail-devices__images-desktop {
+    background-image: url(/intl/ru_ALL/gmail/about/any-device_2x.jpg)
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .gmail-devices__copy-play {
+    background-image: url(/intl/ru_ALL/gmail/about/playstore.png)
+  }
+  .gmail-devices__copy-app {
+    background-image: url(/intl/ru_ALL/gmail/about/appstore.svg)
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .gmail-devices__images-mobile {
+    background-image: url(/intl/ru_ALL/gmail/about/any-device-mobile.jpg)
+  }
+}
+
+@media only screen and (max-width: 777px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 777px) and (min-resolution: 2dppx) {
+  .gmail-devices__images-mobile {
+    background-image: url(/intl/ru_ALL/gmail/about/any-device-mobile_2x.jpg)
+  }
+}
