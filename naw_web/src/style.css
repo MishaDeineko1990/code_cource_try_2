@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    height: 50px;
+    display: flex;
+}
+.border_button{
+    width: 100%;
+    float: right;
+    color: white;
+    height: 100%;
+    background-color: #db5549;
+    font-size: 18px;
+    max-width: 120px;
+    min-width: 120px;
+}
+.border_button p{
+    display: block;    
+    margin: 0 auto;
+}
+.logo img{
+    height: 100%;
+}
+.logo{
+    flex: 1;
+}
+.between{
+    flex: 8;
+}
+.r-button{
+    flex:2;
+}
+
