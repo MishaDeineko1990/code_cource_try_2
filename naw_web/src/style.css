@@ -36,10 +36,8 @@ body {
 .logo{
     flex: 1;
 }
-.between{
-    flex: 8;
-}
+
 .r-button{
-    flex:2;
+    flex:1;
 }
 
