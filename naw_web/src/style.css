@@ -77,3 +77,10 @@ body {
 .text_baner{
     height: 2000px;
 }
+.rabbit{
+    width: 400px;
+    height: 500px;
+    background-image: url(img/programmer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
