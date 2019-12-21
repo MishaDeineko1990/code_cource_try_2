@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -95,5 +96,13 @@ body {
 
 
 .text_baner{
-    height: 2000px;
+    max-width: 640px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+h2  {
+    color: #605F5E;
+    width: 300;
 }
