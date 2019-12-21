@@ -11,7 +11,7 @@ body {
     position: fixed;
     height: 50px;
     display: flex;
-    z-index: 1;
+    z-index: 999;
     background: white;
 }
 .border_button{
@@ -21,7 +21,7 @@ body {
     float: right;
     color: white;
     height: 100%;
-    background-color: #5b9d9f;
+    background-color: #D72638;
     font-size: 16px;
     max-width: 120px;
     min-width: 120px;
@@ -47,18 +47,18 @@ body {
     flex:1;
 }
  
-
-
 /* top_banner */
 .top_banner{    
     position: relative;
     height: 600px;
-    background-image: url(img/bg_banner.png);
+    background-image: url(img/bg.jpg);
+    background-color: #a5c5dc;
     background-size: auto 600px; /* contain робить картинку точно по роміру з блоком */
-    background-position: center;
+    background-position: center top;
     background-attachment: fixed; /*Фіксує зображення в блоці при прорутці*/
     background-repeat: no-repeat;
 }
+
 
 .logo_txt{
     width: 100%;
@@ -71,16 +71,29 @@ body {
     margin-top: -100px;
 }
 
+.rabbit{
+    width: 400px;
+    height: 500px;
+    background-image: url(img/programmer.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 .text_baner{
     height: 2000px;
-}
-.rabbit{
-    width: 400px;
-    height: 500px;
-    background-image: url(img/programmer.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
