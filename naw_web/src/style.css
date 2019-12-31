@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px 7px 0px;
     padding: 0;
     font-family: "Open Sans", sans-serif;
     width: 100%;
@@ -54,23 +54,35 @@ body {
     position: relative;
     height: 600px;
     background-image: url(img/bg.jpg);
-    background-color: #a5c5dc;
     background-size: auto 600px; /* contain робить картинку точно по роміру з блоком */
     background-position: center top;
     background-attachment: fixed; /*Фіксує зображення в блоці при прорутці*/
     background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: -1;
+}
+.top_banner2{    
+    position: relative;
+    height: 600px;
+    background-size: auto 600px; /* contain робить картинку точно по роміру з блоком */
+    background-position: center top;
+    background-attachment: fixed; /*Фіксує зображення в блоці при прорутці*/
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: -600px;
+    
 }
 
 
 .logo_txt{
     width: 100%;
-    height: 200px;
+    height: 350px;
     background-image: url(img/logo_banner.png);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
-    margin-top: -100px;
+    margin-top: -175px;
 }
 
 .rabbit{
@@ -123,20 +135,55 @@ h2  {
 .content_section{
     display: flex;
     margin: 0 auto;
-    max-width: 840px;
+    max-width: 1060px;
     flex-wrap: wrap;
     justify-content: center;
     
 }
 
 
+
+
+/* -----------------block scils------------------ */
 .block_skils{
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 400px;
-    margin-left: 10px; 
-    background-color: #D72638;
-    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+    margin-left: 15px;
+    margin-top: 25px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .25);
+    border-radius: 3%;    
 }
 
+.block_skils div :first-child{
+    width: 100%;
+}
+
+.block_skils img{
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.block_skils .dskr{
+    margin: 10 10 10 10;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.block_skils .dskr p{
+    text-align: center;
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+h4  {
+    color: #605F5E;
+    width: 40;
+    text-align: center;
+}
+
+/* ---------------------------------- */
